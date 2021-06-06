@@ -10,14 +10,14 @@ for x in range(1,100):
         continue
     print(x)
 
-def addOdds():
+def addOdds(number):
     total = 0
-    for x in range(500000):
+    for x in range(number):
         if x % 2 == 1:
             total += x
-    print(total)
+    return(total)
 
-print(addOdds())
+print(addOdds(500000))
 
 for x in range(2018, 0, -4):
     print(x)
